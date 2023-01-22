@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #E5E5E5;
+    background: #FAF8ED;
     padding-left: 135px;
     padding-right: 135px;
     padding-top: 24px;
@@ -42,7 +42,7 @@ li {
     border: 1.4px solid #F66F4D;
     border-radius: 27px;
     color: #F66F4D;
-    background-color: #E5E5E5;
+    background-color: #FAF8ED;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
