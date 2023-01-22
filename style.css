@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 24px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-n-nav {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 36px;
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+.book-now {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.book-now-button {
+    
+    border: 1.4px solid #F66F4D;
+    border-radius: 27px;
+    color: #F66F4D;
+    background-color: #E5E5E5;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    text-align: center;
+    padding: 19px 36px;
+}
+
+.button-img {
+    width: 16px;
+    height: 15px;
+}
