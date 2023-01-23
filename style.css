@@ -26,6 +26,20 @@ header {
     display: flex;
     gap: 36px;
     list-style: none;
+
+}
+
+.nav-list li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    letter-spacing: 0.01em;
+    
+    color: #2E476B;
 }
 
 li {
@@ -47,9 +61,7 @@ li {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 16px;
-    /* identical to box height, or 100% */
-    
+    line-height: 16px;   
     text-align: center;
     padding: 19px 36px;
 }
@@ -97,6 +109,14 @@ main {
     border-radius: 30px;
     background-color: #FAF8ED;
     border: 1px solid #3D3D3D;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;   
+    text-align: center;
+    
+    color: #2D3134;
 }
 
 .places-button:hover {
@@ -139,6 +159,11 @@ main {
     left: 24px;
     top: 24px;
     padding: 5px 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
 }
 
 .country {
@@ -163,4 +188,52 @@ main {
     color: #FFFFFF;
     left: 24px;
     bottom: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 73px;
+}
+
+.footer-guide {
+    display: flex;
+    gap: 114px;
+}
+
+.footer-guide ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.section-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 8px;    
+    color: #2D3134;
+}
+
+.footer-guide ul li {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 34px;   
+    color: #676A6C;
+}
+
+.footer-left-part p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 22px;
+    color: #5B5F62;
+    width: 141px;
 }
